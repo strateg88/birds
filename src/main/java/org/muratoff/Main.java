@@ -7,12 +7,12 @@ public class Main {
         Sparrow sparrow = new Sparrow();
         Nightingale nightingale = new Nightingale();
 
-        String[] birds = new String[3];
-        birds[0] = crow.song("Кар");
-        birds[1] = sparrow.song("Хз");
-        birds[2] = nightingale.song("тоже хз");
+        Object[] birds = new Object[3];
+        birds[0] = crow;
+        birds[1] = sparrow;
+        birds[2] = nightingale;
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < birds.length; i++) {
             System.out.println(birds[i]);
         }
     }
