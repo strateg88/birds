@@ -2,6 +2,6 @@ package org.muratoff;
 
 public class Crow {
     public void song() {
-        System.out.println("Ворона говорит ");
+        System.out.println("Ворона говорит кар-кар");
     }
 }
