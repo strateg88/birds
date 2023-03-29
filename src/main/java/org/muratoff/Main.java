@@ -10,7 +10,7 @@ public class Main {
         Nightingale nightingale = new Nightingale();
 
 
-        Object[] birds = new Object[3];
+        Bird[] birds = new Bird[3];
         birds[0] = crow;
         birds[1] = sparrow;
         birds[2] = nightingale;
