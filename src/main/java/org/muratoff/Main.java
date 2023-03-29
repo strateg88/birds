@@ -14,9 +14,6 @@ public class Main {
         birds[0] = crow;
         birds[1] = sparrow;
         birds[2] = nightingale;
-        if (birds[0] instanceof Crow) {
-            Crow castCrow = (Crow) birds[0];
-        }
 
 
         for (int i = 0; i < birds.length; i++) {
