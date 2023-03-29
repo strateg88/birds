@@ -17,19 +17,10 @@ public class Main {
 
 
         for (int i = 0; i < birds.length; i++) {
-            if (birds[i] instanceof Crow) {
-                Crow castCrow = (Crow) birds[i];
-                castCrow.song();
-            }
-            if (birds[i] instanceof Sparrow) {
-                Sparrow castSparrow = (Sparrow) birds[i];
-                castSparrow.song();
-            }
-            if (birds[i] instanceof Nightingale) {
-                Nightingale castNightingale = (Nightingale) birds[i];
-                castNightingale.song();
+                crow.song();
+                sparrow.song();
+                nightingale.song();
 
-            }
         }
     }
 }
