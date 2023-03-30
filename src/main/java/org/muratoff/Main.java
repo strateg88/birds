@@ -17,9 +17,7 @@ public class Main {
 
 
         for (int i = 0; i < birds.length; i++) {
-                crow.song();
-                sparrow.song();
-                nightingale.song();
+            birds[i].song();
 
         }
     }
